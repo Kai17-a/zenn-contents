@@ -10,3 +10,7 @@ topics: [
 ]
 published: false
 ---
+
+## zenn-first-install
+- test1
+- test2
