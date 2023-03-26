@@ -22,7 +22,7 @@ cd keijiban-app
 今回使用するPostgreSQLとnetworkを記載します。<br />
 networkを作成する理由としては、sam-cliを使用してAWS Lambdaをローカルで起動する場合はsam用のdockerコンテナを利用して起動されます。
 AWS LambdaでDBを使用する場合、dockerコンテナが異なりネットワークが異なるため、ネットワーク通信の設定が必要となります。
-それを省くため、networkを作成しで同一ネットワーク内で起動させます。
+それを省くため、networkを作成し同一ネットワーク内で起動させます。
 ```yaml:docker-compose.yaml
 version: '3.5'
 
