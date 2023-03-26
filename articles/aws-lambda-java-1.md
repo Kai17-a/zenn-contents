@@ -6,16 +6,19 @@ topics: ["aws", "lambda", "java", "postgresql"]
 published: false
 ---
 ## 環境
-* windows10
-* java-11-amazon-corrett
-* postgresql
-* gradle-8.0
-
-## 使用ツール 
-* Visual Stadio Code
-* Docker
-* aws-cli
-* aws sam-cli
+* OS
+Windows10
+* java
+java-11-amazon-corrett
+* ビルドツール
+gradle-8.0.1
+* テキストエディタ
+Visual Stadio Code
+* その他
+Docker
+aws-cli
+sam-cli
+<br>
 
 ## Java インストール
 * java-11-amazon-correttをダウンロード
@@ -33,6 +36,7 @@ published: false
 msiファイルを使用してインストールをした場合は、自動でJAVA_HOMEとpathは設定される
 powershellなどで`java --version`と入力して以下のように出力されればインストール完了
 ![](/images/aws-lambda-java-1/java-11-install5.png)
+<br>
 
 ## Gradle インストール
 * Gradleをダウンロード
@@ -45,6 +49,7 @@ C:\gradle-8.0.1\bin
 ![](/images/aws-lambda-java-1/gradle-install2.png)
 powershellなどで`gradle -v`と入力して以下のように出力されればインストール完了
 ![](/images/aws-lambda-java-1/gradle-install3.png)
+<br>
 
 ## Visual Stadio Code 設定
 VscodeにJavaとGradleの拡張機能をインストール
@@ -57,6 +62,7 @@ settings.jsonに下記を追加\n
 
 * 「Gradle for Java」をインストール
 ![](/images/aws-lambda-java-1/vscode-setting2.png)
+<br>
 
 ## Docker インストール
 ローカル環境でAWS Lambdaを動かす場合はDockerが必要
@@ -66,6 +72,7 @@ WindowsでDockerを使用する場合はwslが必要となるのでwslをイン�
 * インストール確認
 powershellなどで`java --version`と入力して以下のように出力されればインストール完了
 ![](/images/aws-lambda-java-1/java-11-install5.png)
+<br>
 
 ## aws-cli インストール
 * [aws公式サイト aws-cli](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/getting-started-install.html)からインストーラーをダウンロード
@@ -76,10 +83,20 @@ powershellなどで`java --version`と入力して以下のように出力され
 ![](/images/aws-lambda-java-1/aws-cli-install4.png)
 powershellなどで`aws --version`と入力して以下のように出力されればインストール完了
 ![](/images/aws-lambda-java-1/aws-cli-install5.png)
+<br>
 
 ## aws sam-cli インストール
 * [aws公式サイト sam-cli](https://docs.aws.amazon.com/ja_jp/serverless-application-model/latest/developerguide/install-sam-cli.html)からインストーラーをダウンロード
 基本的にはNextを選択するだけでOK
 ![](/images/aws-lambda-java-1/sam-cli-install1.png)
+![](/images/aws-lambda-java-1/sam-cli-install2.png)
+![](/images/aws-lambda-java-1/sam-cli-install3.png)
+![](/images/aws-lambda-java-1/sam-cli-install4.png)
 powershellなどで`sam --version`と入力して以下のように出力されればインストール完了
 ![](/images/aws-lambda-java-1/sam-cli-install5.png)
+<br>
+
+## おわり
+ローカル環境でAWS Lambdaを起動するための環境構築は以上となります。
+次回は今回の掲示板APIで使用するDBなどのインフラ周りを準備します。
+<br>
