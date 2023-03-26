@@ -8,6 +8,8 @@ published: false
 
 この記事では、AWS SAM, Java, PostgreSQLを使って簡単な掲示板アプリを作成するための環境構築を行います。
 
+次の記事はこちら
+[ローカル環境でAWS SAM Lambda + Java + PostgreSQLを使って掲示板APIを作る２ ~DB準備編~](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html)
 
 ## 環境
 * OS
