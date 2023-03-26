@@ -84,6 +84,7 @@ create table if not exists comments(
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP 
 );
+-- テストデータ挿入
 insert into boards(title) values ('test掲示板');
 insert into users(name, password) values ('user01', 'pass1234');
 insert into users(name, password) values ('user02', 'pass1234');
