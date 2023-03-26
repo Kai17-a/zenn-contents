@@ -1,10 +1,14 @@
 ---
-title: "ローカル環境でAWS SAM Lambda + Java + PostgreSQLを使って掲示板APIを作る ~準備編~"
+title: "ローカル環境でAWS SAM Lambda + Java + PostgreSQLを使って掲示板APIを作る１ ~環境構築編~"
 emoji: "🔧"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["aws", "lambda", "java", "postgresql"]
 published: false
 ---
+
+この記事では、AWS SAM, Java, PostgreSQLを使って簡単な掲示板アプリを作成するための環境構築を行います。
+
+
 ## 環境
 * OS
 Windows10
@@ -65,7 +69,8 @@ settings.jsonに下記を追加\n
 <br>
 
 ## Docker インストール
-ローカル環境でAWS Lambdaを動かす場合はDockerが必要
+ローカル環境においてAWS SAMを使用し、Lambda関数を実行するにはDockerが必要となります。
+<br />
 WindowsでDockerを使用する場合はwslが必要となるのでwslをインストールしていない場合は[Microsoft公式](https://learn.microsoft.com/ja-jp/windows/wsl/install)の手順でインストールしてください
 * Dockerをダウンロード
 [Docker公式サイト](https://www.docker.com/)からDockerをダウンロードしてインストールする
@@ -75,6 +80,7 @@ powershellなどで`java --version`と入力して以下のように出力され
 <br>
 
 ## aws-cli インストール
+<br />
 * [aws公式サイト aws-cli](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/getting-started-install.html)からインストーラーをダウンロード
 基本的にはNextを選択するだけでOK
 ![](/images/aws-lambda-java-1/aws-cli-install1.png)
@@ -98,5 +104,5 @@ powershellなどで`sam --version`と入力して以下のように出力され�
 
 ## おわり
 ローカル環境でAWS Lambdaを起動するための環境構築は以上となります。
-次回は今回の掲示板APIで使用するDBなどのインフラ周りを準備します。
+次回は今回の掲示板APIで使用するDBをDockerを使って準備します。
 <br>
