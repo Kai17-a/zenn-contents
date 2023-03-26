@@ -7,7 +7,7 @@ published: false
 ---
 
 環境構築は前回の記事を参照してください。
-[ローカル環境でAWS SAM Lambda + Java + PostgreSQLを使って掲示板APIを作る ~環境構築編~](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html)
+[ローカル環境でAWS SAM Lambda + Java + PostgreSQLを使って掲示板APIを作る１ ~環境構築編~](https://zenn.dev/ks1905/articles/aws-lambda-java-1)
 
 ## ローカルDB準備
 * プロジェクトディレクトリ作成

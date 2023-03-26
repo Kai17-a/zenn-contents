@@ -9,7 +9,7 @@ published: false
 この記事では、AWS SAM, Java, PostgreSQLを使って簡単な掲示板アプリを作成するための環境構築を行います。
 
 次の記事はこちら
-[ローカル環境でAWS SAM Lambda + Java + PostgreSQLを使って掲示板APIを作る２ ~DB準備編~](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html)
+[ローカル環境でAWS SAM Lambda + Java + PostgreSQLを使って掲示板APIを作る２ ~DB準備編~](https://zenn.dev/ks1905/articles/aws-lambda-java-2)
 
 ## 環境
 * OS
@@ -108,3 +108,5 @@ powershellなどで`sam --version`と入力して以下のように出力され�
 ローカル環境でAWS Lambdaを起動するための環境構築は以上となります。
 次回は今回の掲示板APIで使用するDBをDockerを使って準備します。
 <br>
+次の記事はこちら
+[ローカル環境でAWS SAM Lambda + Java + PostgreSQLを使って掲示板APIを作る２ ~DB準備編~](https://zenn.dev/ks1905/articles/aws-lambda-java-2)
